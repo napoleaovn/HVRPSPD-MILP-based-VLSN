@@ -13,22 +13,15 @@ public class Solver {
 
 		Locale.setDefault(Locale.US);
 		
-		/*int inputFormat = 1;
+		int inputFormat = 1;
 		String[] filenames = {
 		"instance101", "instance102", "instance103", "instance104", "instance105", "instance106","instance107",
 		"instance108", "instance109", "instance110", "instance111", "instance112", "instance113", "instance114",
 		"instance201", "instance202", "instance203", "instance204", "instance205", "instance206", "instance207",
-		"instance208", "instance209", "instance210", "instance211", "instance212", "instance213", "instance214"};*/ 
+		"instance208", "instance209", "instance210", "instance211", "instance212", "instance213", "instance214"};
 
-		int inputFormat = 1;
-		String[] filenames = {"instance-50", "instance-100", "instance-350", "instance-550"}; 
-
-		//int inputFormat = 2;
-		/*String[] filenames = {"SCA30", "SCA31", "SCA32", "SCA33", "SCA34", "SCA35", "SCA36", "SCA37", "SCA38", "SCA39",
-		  "SCA80", "SCA81", "SCA82", "SCA83", "SCA84", "SCA85", "SCA86", "SCA87", "SCA88", "SCA89"};*/
-		
 		int[] subprobTimeLimits = {5, 10, 20, 30, 60};
-		int numberOfExecutions = 5;
+		int numberOfExecutions = 10;
 		Random randomGenerator = new Random();
 		int timeLimit = 3600;
 
