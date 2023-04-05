@@ -1,0 +1,9 @@
+ROUTE IMPROVEMENT                   60       1    1.00
+ROUTES COMMUTATION                  43       0    1.00
+ROUTES AGGLUTINATION                49       1    1.00
+CUSTOMERS CLIQUE                    39       0    0.95
+BEST COST                       445.13
+PROCESS TIME                    767.25
+TIME TO BEST                    181.56
+ITERATIONS                         191
+ITERATIONS TO BEST                  91
